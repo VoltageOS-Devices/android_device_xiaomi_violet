@@ -1,5 +1,5 @@
 # Copyright (C) 2020-2021 Wave-OS
-# Copyright (C) 2020-2021 Spark-OS
+# Copyright (C) 2020-2021 Voltage-OS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -100,8 +100,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 2160
 
 # Camera
 PRODUCT_PACKAGES += \
