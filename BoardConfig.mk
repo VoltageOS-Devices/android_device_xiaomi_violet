@@ -103,7 +103,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := violet_defconfig
-
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_SOURCE := kernel/xiaomi/violet
 
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0x880000
