@@ -98,14 +98,11 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
-#BOARD_KERNEL_SEPARATED_DTBO := true
+BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := violet_defconfig
-TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_HEADERS := kernel/xiaomi/violet
+
 TARGET_KERNEL_SOURCE := kernel/xiaomi/violet
-TARGET_FORCE_PREBUILT_KERNEL := true
+
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0x880000
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom androidboot.console=ttyMSM0
 BOARD_KERNEL_CMDLINE += androidboot.usbcontroller=a600000.dwc3
