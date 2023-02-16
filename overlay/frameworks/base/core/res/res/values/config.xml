@@ -644,6 +644,16 @@
           available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
 
+    <!-- Paths to the libraries that contain device specific key handlers -->
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+        <item>/system/priv-app/KeyHandler/KeyHandler.apk</item>
+    </string-array>
+
+    <!-- Names of the key handler classes -->
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+        <item>me.superioros.keyhandler.KeyHandler</item>
+    </string-array>
+
     <!-- QS System Info -->
     <string name="config_sysCPUTemp">/sys/devices/virtual/thermal/thermal_zone0/temp</string>
     <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
