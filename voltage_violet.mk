@@ -36,3 +36,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Voltage OS Official
 VOLTAGE_BUILD_TYPE := OFFICIAL
+
+# MiuiCamera
+$(call inherit-product, vendor/MiuiCamera/config.mk)
