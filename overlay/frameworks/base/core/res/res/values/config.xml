@@ -649,4 +649,7 @@
      sending a request to enable or disable the camera while the video session is also
      paused. -->
     <bool name="config_useVideoPauseWorkaround">true</bool>
+
+    <!-- Default value for performant auth feature. -->
+    <bool name="config_performantAuthDefault">true</bool>
 </resources>
