@@ -353,6 +353,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
 
+PRODUCT_PACKAGES += \
+    FlashOverlay
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0.vendor

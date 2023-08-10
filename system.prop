@@ -5,7 +5,7 @@ ro.launcher.blur.appLaunch=0
 vendor.bluetooth.soc=cherokee
 
 # Camera
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,org.lineageos.aperture.dev,com.voltage.flash
 
 # Charger
 ro.charger.enable_suspend=true
